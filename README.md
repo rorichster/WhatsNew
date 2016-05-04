@@ -9,7 +9,7 @@ Simple app to add version and changes to your app. This I used in my projects to
 $ composer require rorichster/whatsnew
 ```
 
-** Add the Service Provider to your ```config/app.php``` file:**
+**Add the Service Provider to your ```config/app.php``` file:**
 
 ```php
 'providers' => array(

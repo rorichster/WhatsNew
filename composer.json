@@ -1,0 +1,14 @@
+{
+    "name": "rorichster/whatsnew",
+    "description": "Simple package for adding What's New to your app",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rorichster",
+            "email": "rorichster@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

@@ -1,12 +1,12 @@
 @extends('whatsnew::layout')
 
-@section('title', trans('whatsnew.whatsnew'))
+@section('title', trans('whatsnew::messages.whatsnew'))
 
 @section('content')
 
 <h1>
-	{!! trans('list_whatsnew', ['whatsnew']) !!}
-	<small><a href="{!! route('whatsnew.create') !!}">{!! trans('add_whatsnew') !!}</a></small>
+	{!! trans('whatsnew::messages.list_whatsnew') !!}
+	<small><a href="{!! route('whatsnew.create') !!}">{!! trans('whatsnew::messages.add_whatsnew') !!}</a></small>
 </h1>
 <div class="col-md-8">
 	<ul class="list-group">

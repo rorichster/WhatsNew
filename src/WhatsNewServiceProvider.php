@@ -34,6 +34,8 @@ class WhatsNewServiceProvider extends ServiceProvider
 		$this->publishes([
 			__DIR__ . '/../views' => base_path('/views/rorichster/whatsnew'),
 		]);
+
+		$this->loadTranslationsFrom(__DIR__.'/../languages', 'whatsnew');
 	}
 
 	/**

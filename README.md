@@ -7,6 +7,7 @@ Simple app to add version and changes to your app. This I used in my projects to
 
 ```shell
 $ composer require rorichster/whatsnew
+```
 
 ** Add the Service Provider to your ```config/app.php``` file:**
 
@@ -22,11 +23,13 @@ Publish package's files:
 
 ```shell
 $ php artisan vendor:publish
+```
 
 Run database migrations:
 
 ```shell
 $ php artisan migrate
+```
 
 ## Usage
 Point to /whatsnew and you will able to view already inserted versions. Or create new. Enjoy.
